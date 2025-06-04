@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entre em contato com João da Silva">
+  <title>Contato | Portfólio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Fale Comigo</h1>
+    <form id="contato-form">
+      <label>Nome: <input type="text" id="nome" required /></label><br /><br />
+      <label>Email: <input type="email" id="email" required /></label><br /><br />
+      <label>Mensagem:<br />
+        <textarea id="mensagem" required></textarea>
+      </label><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensagem-status"></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Elton R Batista</p>
+  </footer>
+</body>
+<button onclick="voltarTopo()" id="btnTopo">↑</button>
+
+</html>
